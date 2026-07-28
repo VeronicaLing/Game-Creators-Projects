@@ -1,0 +1,36 @@
+* {
+    max-width: 100%;
+}
+
+.div{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.63);
+    justify-content: space-between;
+
+}
+
+.titulo {
+    font-weight: bold;
+    margin-left: 60px;
+    color: aliceblue;
+    /* box-shadow: 10px 10px 10px 10px rgba(0.40,0,0,0.40); */
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.topicos{
+    display: flex;
+    justify-content: right;
+}
+
+.link {
+    list-style: none;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.685);
+    color: rgb(0, 0, 0);
+}
+
+.link2{
+    list-style: none;
+}
