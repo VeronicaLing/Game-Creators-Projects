@@ -1,22 +1,28 @@
 * {
     max-width: 100%;
 }
+.body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+    url("https://png.pngtree.com/thumb_back/fw800/background/20251217/pngtree-cinema-tickets-and-popcorn-bucket-in-movie-theater-background-image_20794816.webp");
+    background-size: cover;
+ }
 
 .div{
     display: flex;
     background-color: rgb(0, 0, 0);
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.63);
     justify-content: space-between;
-
+    max-height: 100px;
 }
 
 .titulo {
     font-weight: bold;
-    margin-left: 60px;
-    color: aliceblue;
+    margin-left: 40px;
+    color: rgb(251, 255, 0);
     /* box-shadow: 10px 10px 10px 10px rgba(0.40,0,0,0.40); */
-    font-size: 60px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+    font-family: Impact, fantasy;
+    letter-spacing: 8px;
 }
 
 .topicos{
@@ -26,11 +32,31 @@
 
 .link {
     list-style: none;
-    font-size: 18px;
-    background-color: rgba(0, 0, 0, 0.685);
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgba(255, 251, 0, 0.979);
     color: rgb(0, 0, 0);
+    font-family: Impact, fantasy;
 }
 
 .link2{
     list-style: none;
+}
+
+.inicial{
+    display:flex;
+    justify-self: center;
+    text-shadow: 0px 0px 7px rgb(255, 230, 0);
+    font-size: 35px;
+    text-decoration: overline;
+    font-family: Impact, fantasy;
+    font-width: 3px;
+}
+
+.div_i1{
+    display: block;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
