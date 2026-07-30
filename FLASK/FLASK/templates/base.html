@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmes</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body class="body">
+    
+    <header>
+        <nav>
+
+            <div class="div">
+                <p class="titulo">FILMES</p>
+                <img style="height: 96px; width: 300px; box-sizing: border-box" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNv59HXqL1-YTUcY6Ast3sYHrjeDTqLgYGpfgepgN_WNw0HhSuQ1Ga6PGx&s=10" alt="">
+            </div>
+            
+            <ul class="topicos">
+                <link><a href="/home" class="link" style="margin-right: 15px;">HOME</a></link>
+                <link><a href="/filmes" class="link" style="margin-right: 15px;">LISTA DE FILMES</a></link>
+                <link><a href="/perfil" class="link" style="margin-right: 15px;">PERFIL</a></link>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <main class="pagina1">
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <footer>
+        <nav>
+            <ul style="text-align: center;">
+                <li class="link2"><a href="/home">Home</a></li>
+                <li class="link2"><a href="/filmes">Filmes</a></li>
+                <li class="link2"><a href="/perfil">Perfil</a></li>
+            </ul>
+            <p style="color: aliceblue; text-align: center; font-family: Georgia, 'Times New Roman', Times, serif;">Desenvolvido por &copy;wangling</p>
+        </nav>
+    </footer>
+
+</body>
+</html>
